@@ -1,0 +1,211 @@
+body{
+  margin: 0;
+  background: rgb(0,1,38);
+background: linear-gradient(90deg, rgba(0,1,38,1) 0%, rgba(101,86,189,1) 46%, rgba(37,20,135,1) 77%, rgba(6,14,64,1) 100%);
+background-size: 200% 200%;
+animation: gradient 10s ease infinite;
+}
+.shapka{
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgb(255,217,73);
+background: linear-gradient(90deg, rgba(255,217,73,1) 0%, rgba(236,235,223,1) 37%, rgba(255,255,255,1) 48%, rgba(255,247,34,1) 80%, rgba(255,173,0,1) 100%);
+filter: drop-shadow(3px 3px 20px white);
+float: left;
+position: absolute;
+margin-left: 680px;
+background-size: 200%;
+  animation: gradient 7s ease infinite;
+}
+
+.main_div{
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  text-decoration-color: white;
+  text-decoration-style: solid;
+}
+.main_div h1{
+  font-size: 300px;
+  font-weight: 800;
+  font-family: fantasy;
+  letter-spacing: 6px;
+  color: white;
+  cursor: default;
+  letter-spacing: 1px;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(241,237,142,0.9657914191067052) 46%, rgba(109,60,116,1) 83%, rgba(7,2,8,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:
+  transparent;
+  background-size: 300% 300%;
+  animation: gradient 10s ease-in-out infinite;
+}
+
+@keyframes gradient {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+      background-position: 100% 50%;
+  }
+  100%{
+      background-position: 0% 50%;
+  }
+
+}
+.main_div h3{
+  filter: drop-shadow(2px 2px 5px black);
+  font-size: 50px;
+  font-weight: 100;
+  font-family: Chalkduster, fantasy;
+  letter-spacing: 3px;
+  color: black;
+  margin-top: -250px;
+}
+.my_character{
+  width: 70%;
+  height: 300px;
+  /*background: rgb(77,29,80);
+background: linear-gradient(90deg, rgba(77,29,80,1) 0%, rgba(202,142,241,0.9657914191067052) 46%, rgba(180,40,162,0.9517858168658089) 75%, rgba(82,34,92,1) 100%);
+*/
+text-align: center;
+ margin-left: 200px;
+ margin-bottom: 300px;
+ border-radius: 5%;
+ opacity: 20%;
+
+}
+.sliders_png_1{
+  margin-left: 100px;
+  margin-bottom: 50px;
+  width: 350px;
+  height: 500px;
+  border-radius: 10%;
+  background-color: gold;
+  background-image: url('../image/GDC.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: drop-shadow(0 0 10px black);
+  float: left;
+  cursor: pointer;
+}
+.sliders_png_1 p {
+  color: white;
+  size: 100px;
+  margin-top: -30px;
+  text-align: center;
+  font-family: fantasy;
+  cursor: default;
+}
+.sliders_png_1:hover{
+  width: 320px;
+  height: 470px;
+  margin-top: 10px;
+  margin-bottom: 70px;
+  margin-left: 110px;
+  margin-right: 10px;
+  filter: drop-shadow(0 0 30px black);
+}
+/*----------------------------------------------------*/
+.sliders_png_2{
+  margin-left: 100px;
+  margin-bottom: 50px;
+  width: 350px;
+  height: 500px;
+  border-radius: 10%;
+  background-color: gold;
+  background-image: url('../image/arunazsrc.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: drop-shadow(0 0 10px black);
+  float: left;
+  cursor: pointer;
+}
+.sliders_png_2 p {
+  color: white;
+  size: 100px;
+  margin-top: -30px;
+  text-align: center;
+  font-family: fantasy;
+  cursor: default;
+}
+.sliders_png_2:hover{
+  width: 320px;
+  height: 470px;
+  margin-top: 10px;
+  margin-bottom: 70px;
+  margin-left: 110px;
+  margin-right: 10px;
+  filter: drop-shadow(0 0 30px black);
+}
+.sliders_png_3{
+  margin-left: 100px;
+  margin-bottom: 50px;
+  width: 350px;
+  height: 500px;
+  border-radius: 10%;
+  background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(241,237,142,0.9657914191067052) 46%, rgba(180,172,40,0.9517858168658089) 75%, rgba(7,2,8,1) 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200% 200%;
+  filter: drop-shadow(0 0 10px black);
+  float: left;
+  cursor: pointer;
+  animation: gradientblocks 20s ease infinite;
+}
+@keyframes gradientblocks {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+      background-position: 100% 50%;
+  }
+  100%{
+      background-position: 0% 50%;
+  }
+}
+.sliders_png_3 p {
+  color: white;
+  size: 100px;
+  margin-top: -30px;
+  text-align: center;
+  font-family: fantasy;
+  cursor: default;
+}
+.sliders_png_3 h1{
+  color: white;
+  size: 300px;
+  margin-top: 245px;
+  text-align: center;
+  font-family: fantasy;
+  cursor: default;
+}
+.sliders_png_3:hover{
+  width: 320px;
+  height: 470px;
+  margin-top: 10px;
+  margin-bottom: 70px;
+  margin-left: 110px;
+  margin-right: 10px;
+  filter: drop-shadow(0 0 30px black);
+}
+.my_character h1{
+  font-size: 60px;
+  font-family: sans-serif;
+  font-display: block;
+}
+.my_character_title2{
+  width: 400px;
+  height: 200px;
+  background-color: aqua;
+  opacity: 50%;
+  border-radius: 10%;
+  margin-left: 320px;
+}
